@@ -1,0 +1,83 @@
+html{
+    font-family: 'Baloo Da 2', cursive;
+}
+
+body {
+    background-color: #130f0d;
+    color: #fdfdfd;
+}
+
+.boards {
+    display: flex;
+    
+    margin-left:18vw;
+   
+}
+
+.board {
+    background: #141316;
+    border: 1px solid #FD951F11;
+    border-radius: 4px;
+    margin: 0 5px;
+    margin-top: 10vh;
+}
+
+.board h3 {
+    padding:16px;
+    margin:0;
+    color: #FD951Fcc;
+}
+
+.dropzone {
+    padding: 16px;
+    min-width: 282px;
+    min-height: 200px;
+}
+
+.card {
+    padding:16px;
+    box-shadow: 0 1px 2px -1px #FD951Fcc;
+    width:250px;
+    margin:4vh 0;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size:18px;
+    background-color:#1a1a1c ;
+}
+
+.status {
+    width: 30px;
+    height: 8px;
+    background: grey;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.status.green{
+    background: #23d2ac;
+}
+
+.status.blue{
+    background: #33adff;
+}
+
+.status.red{
+    background: rgb(211, 36, 36);
+}
+
+.highlight{
+    background-color: #FD951F08;
+}
+
+.card, .dropzone{
+    transition: 400ms;
+}
+
+.isdragging{
+    cursor:move;
+    opacity: 0.3;
+}
+
+.over{
+    background-color: #4cd13711;
+}
