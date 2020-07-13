@@ -5,41 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600&display=swap" rel="stylesheet">
-
+   
+   
 
     <title>Simple Kanban board</title>
 </head>
 <body>
     
-    <!-- <input type="text" class="inputElelement"> -->
+
+    <header>
+        <nav>
+          <h1>Simple Kanban board</h1>
+          <p>Drag and Drop</p>
+        </nav>
+    </header>
+
+    <div class="inpuit">
+        <input type="text" class=" inputElement"   placeholder="       to - do ..." id="in">
+       
+          <button class=" buttonClass" type="button" id="button-addon2">go</button>
+        
+    </div>
+
+
+    
 
     <div class="boards">
         <div class="board">
-            <h3>To Do</h3>
+            <h3>Monday</h3>
             <div class="dropzone" >
-                <div class="card" draggable="true">
+                <!-- <div class="card" draggable="true">
+                    <div class="status red"></div>
+                    <div class="content"></div>
+                </div> -->
+            </div>
+        </div>
+        <div class="board">
+            <h3>Tuesday</h3>
+            <div class="dropzone" >
+                <!-- <div class="card" draggable="true">
                     <div class="status red"></div>
                     <div class="content">Do Courses</div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="board">
-            <h3>In Progress</h3>
+            <h3>Wednesday</h3>
             <div class="dropzone" >
-                <div class="card" draggable="true">
+                <!-- <div class="card" draggable="true">
                     <div class="status blue"></div>
                     <div class="content">Do portfolio</div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="board">
-            <h3>Done</h3>
+            <h3>Thursday</h3>
             <div class="dropzone" >
-                <div class="card" draggable="true">
+                <!-- <div class="card" draggable="true">
                     <div class="status green"></div>
                     <div class="content">Do test</div>
-                </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="board">
+            <h3>Friday</h3>
+            <div class="dropzone" >
+                <!-- <div class="card" draggable="true">
+                    <div class="status green"></div>
+                    <div class="content">Do test</div>
+                </div> -->
             </div>
         </div>
     </div>

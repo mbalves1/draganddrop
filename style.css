@@ -5,12 +5,13 @@ html{
 body {
     background-color: #130f0d;
     color: #fdfdfd;
+    margin-top:100px;
+    
 }
 
 .boards {
     display: flex;
-    
-    margin-left:18vw;
+    justify-content:space-around;
    
 }
 
@@ -62,7 +63,7 @@ body {
 }
 
 .status.red{
-    background: rgb(211, 36, 36);
+    background: #23d2ac;
 }
 
 .highlight{
@@ -80,4 +81,64 @@ body {
 
 .over{
     background-color: #4cd13711;
+}
+
+/* 
+    Input
+*/
+.inputElement{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 350px;
+    transition: .5s;
+    border-radius: 4px 0 0 4px;
+    height: 35px;
+    border:none;
+    outline:none;
+    font-size:18px;
+    padding-left:12px;
+    background: #1a1a1c;
+    color:#fdfdfd;
+    
+}
+
+#button-addon2{
+    background:#FD951Fcc;
+    border:none;
+    outline:none;
+    border-radius: 0  4px  4px 0;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+
+    
+}
+
+/* 
+ */
+
+ .inpuit{
+    margin-left:100px;
+}
+
+.btn{
+    width:20px;
+    height: 20px;
+    background-color: #d33636;
+    outline: none;
+    border-radius: 4px;
+}
+
+/*  
+    Nav
+*/
+
+nav{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 150px;
+    color:#FD951Fcc;
+    
 }
