@@ -12,6 +12,7 @@ body {
 .boards {
     display: flex;
     justify-content:space-around;
+    margin:2rem;
    
 }
 
@@ -141,4 +142,13 @@ nav{
     margin-bottom: 150px;
     color:#FD951Fcc;
     
+}
+
+/*******/
+
+@media (max-width:1200px){
+    .boards {
+        display:flex;
+        flex-direction: column;
+    }
 }
